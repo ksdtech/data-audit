@@ -1,0 +1,4 @@
+Create RSS Feeds for changes
+
+Uses acts_as_audited
+Uses same database as "dashboard" project

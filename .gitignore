@@ -1,0 +1,10 @@
+.DS_Store
+*.tmproj
+app_config.yml
+database.yml
+data/*
+doc/README_FOR_APP
+db/schema.rb
+log/*
+tmp/*
+vendor/rails

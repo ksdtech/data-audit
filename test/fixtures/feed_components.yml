@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  auditable_type: MyString
+  attribute_name: MyString
+  feed_id: 1
+
+two:
+  auditable_type: MyString
+  attribute_name: MyString
+  feed_id: 1

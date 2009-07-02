@@ -1,0 +1,20 @@
+<% title "Audit Feed Attribute" %>
+
+<p>
+  <strong>Audit Feed:</strong>
+  <%=h @feed_component.feed_id %>
+</p>
+<p>
+  <strong>Auditable Type:</strong>
+  <%=h @feed_component.auditable_type %>
+</p>
+<p>
+  <strong>Attribute Name:</strong>
+  <%=h @feed_component.attribute_name %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_feed_component_path(@feed_component) %> |
+  <%= link_to "Destroy", @feed_component, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", feed_components_path %>
+</p>

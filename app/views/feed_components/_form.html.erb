@@ -1,0 +1,16 @@
+<% form_for @feed_component do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :feed_id %><br />
+    <%= f.text_field :feed_id %>
+  </p>
+  <p>
+    <%= f.label :auditable_type %><br />
+    <%= f.text_field :auditable_type %>
+  </p>
+  <p>
+    <%= f.label :attribute_name %><br />
+    <%= f.text_field :attribute_name %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>

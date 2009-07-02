@@ -1,0 +1,19 @@
+<% title "Audit Feeds" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Permalink</th>
+  </tr>
+  <% for feed in @feeds %>
+    <tr>
+      <td><%=h feed.name %></td>
+      <td><%=h feed.permalink %></td>
+      <td><%= link_to "Show", feed %></td>
+      <td><%= link_to "Edit", edit_feed_path(feed) %></td>
+      <td><%= link_to "Destroy", feed, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Audit Feed", new_feed_path %></p>

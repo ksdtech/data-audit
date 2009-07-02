@@ -1,0 +1,16 @@
+<% title "Audit Feed" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @feed.name %>
+</p>
+<p>
+  <strong>Permalink:</strong>
+  <%=h @feed.permalink %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_feed_path(@feed) %> |
+  <%= link_to "Destroy", @feed, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", feeds_path %>
+</p>
